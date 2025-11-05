@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>マイポイントカード</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.6/dist/JsBarcode.all.min.js"></script>
+</head>
+<body>
+  <h2>あなたのポイントカード</h2>
+  <svg id="barcode"></svg>
+  <p id="points">ポイント：読み込み中...</p>
+  <button onclick="showHistory()">履歴を見る</button>
+  <ul id="history"></ul>
+  <button onclick="logout()">ログアウト</button>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
