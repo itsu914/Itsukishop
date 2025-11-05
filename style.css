@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 40px;
+  background: #f9f9f9;
+}
+button {
+  margin: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+input {
+  margin: 5px;
+  padding: 6px;
+}
+svg {
+  margin: 20px 0;
+}
